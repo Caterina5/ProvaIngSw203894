@@ -15,8 +15,6 @@ public class MyListUtil {
 		l = lista;
 		l.sort(null);
 		
-		System.out.println("aggiunta di una modifica");
-		
 		return l;
 	}
 	
