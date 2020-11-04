@@ -14,6 +14,9 @@ public class MyListUtil {
 	List<Integer> getCrescente(List<Integer> lista) {
 		l = lista;
 		l.sort(null);
+		
+		System.out.println("aggiunta di una modifica");
+		
 		return l;
 	}
 	
@@ -23,6 +26,9 @@ public class MyListUtil {
 		List<Integer> l2 = new ArrayList<Integer>();
 		for (int i=l.size()-1; i>=0; i--)
 			l2.add(l.get(i));
+		
+		System.out.println("aggiunta di una modifica");
+		
 		return l2;
 	}
 	
