@@ -27,8 +27,6 @@ public class MyListUtil {
 		for (int i=l.size()-1; i>=0; i--)
 			l2.add(l.get(i));
 		
-		System.out.println("aggiunta di una modifica");
-		
 		return l2;
 	}
 	
